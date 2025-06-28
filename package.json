@@ -1,0 +1,16 @@
+{
+  "name": "dashboard-api",
+  "version": "1.0.0",
+  "description": "API для учебного проекта 4-NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Radkov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
