@@ -1,9 +1,11 @@
 import express from "express";
+import { LoggerService } from "../logger/logger.service";
 
+const logger = new LoggerService();
 const userRouter = express.Router();
 
 userRouter.use((req, res, next) => {
-  console.log('Обработчик users');
+  logger.log('Обработчик users');
   next();
 })
 
